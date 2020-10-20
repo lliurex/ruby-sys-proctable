@@ -1,0 +1,31 @@
+Source: ruby-sys-proctable
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Valentin Vidic <vvidic@debian.org>
+Build-Depends: debhelper-compat (= 13),
+               gem2deb,
+               rake,
+               ruby-ffi,
+               ruby-rspec
+Standards-Version: 4.5.0
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-sys-proctable.git
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-sys-proctable
+Homepage: https://github.com/djberg96/sys-proctable
+Testsuite: autopkgtest-pkg-ruby
+XS-Ruby-Versions: all
+Rules-Requires-Root: no
+
+Package: ruby-sys-proctable
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ruby | ruby-interpreter,
+         ruby-ffi,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Ruby interface for gathering process information
+ The sys-proctable library provides an interface for gathering information
+ about processes on your system, i.e. the process table. Most major
+ platforms are supported and, while different platforms may return
+ different information, the external interface is identical across
+ platforms.

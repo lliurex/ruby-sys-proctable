@@ -1,0 +1,2 @@
+version=3
+https://github.com/djberg96/sys-proctable/releases .*/sys-proctable-(\d\S*)\.tar\.gz

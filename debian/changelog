@@ -1,0 +1,17 @@
+ruby-sys-proctable (1.2.5-2) bionic; urgency=medium
+
+  * Groovy port
+
+ -- M.Angel Juan <m.angel.juan@gmail.com>  Tue, 20 Oct 2020 09:17:07 +0200
+
+ruby-sys-proctable (1.2.5-2) unstable; urgency=medium
+
+  * Enable Salsa CI
+
+ -- Valentin Vidic <vvidic@debian.org>  Sat, 18 Jul 2020 16:05:36 +0200
+
+ruby-sys-proctable (1.2.5-1) unstable; urgency=medium
+
+  * Initial release (Closes: #963984)
+
+ -- Valentin Vidic <vvidic@debian.org>  Sat, 27 Jun 2020 22:15:24 +0200
