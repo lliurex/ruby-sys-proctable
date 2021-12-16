@@ -1,3 +1,9 @@
+ruby-sys-proctable (1.2.5-2) focal; urgency=medium
+
+  * Focal port
+
+ -- M.Angel Juan <m.angel.juan@gmail.com>  Thu, 16 Dec 2021 11:59:08 +0100
+
 ruby-sys-proctable (1.2.5-2) bionic; urgency=medium
 
   * Groovy port
